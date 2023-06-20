@@ -28,6 +28,6 @@ function convertToRoman(n){
     return resultado
 }
 
-const n = 12
+const n = 25
 
 console.log(`El numero ${n} en romano es: ${convertToRoman(n)}`)
