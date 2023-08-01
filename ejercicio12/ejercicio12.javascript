@@ -15,4 +15,4 @@ let obj = {
   }
   
   
-  setTimeout(() => makeRow(obj), 3000)
+  

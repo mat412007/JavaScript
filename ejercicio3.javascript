@@ -3,7 +3,7 @@ function calcularOmhs(color1, color2, multiplicador) {
 
     const valor1 = colores.indexOf(color1);
     const valor2 = colores.indexOf(color2);
-    const multiplicadorEnNumero = colores.indexOf(multiplicador)
+    const multiplicadorEnNumero = colores.indexOf(multiplicador);
     // Usamos parseInt para convertir de string a int
     const resistencia = parseInt(`${valor1}${valor2}`) * Math.pow(10, multiplicadorEnNumero);
     /*

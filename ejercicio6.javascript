@@ -1,16 +1,16 @@
 function isLeap(year) {
-    if(year % 4 != 0){
-        return false
+    let resultado = ""
+    if(year % 4 == 0 && year % 100 != 0){
+        resultado = "es bisiesto."
     }
-    else if(year % 100 != 0){
-        return true
-    }
-    else if(year % 400 != 0){
-        return false
+    else if(year % 400 == 0){
+        resultado = "es bisiesto."
     }
     else {
-        return true
+        resultado =  "no es bisiesto."
     }
+    return resultado;
 }
 
-console.log(isLeap(2023))
+let year = 2001;
+console.log(`El año ${year} ` + isLeap(2001)); //Debes ingresar el año correcto en year y console.log para que el resultado sea correcto.

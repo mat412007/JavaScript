@@ -6,4 +6,4 @@ function factorial (n){
     } 
     return result;
 }
-console.log(factorial(5)) //Imprimiria 120
+console.log(factorial(5)) //Imprimiria 120 = 5*4*3*2*1

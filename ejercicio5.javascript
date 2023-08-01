@@ -28,6 +28,6 @@ function convertToRoman(n){
     return resultado
 }
 
-const n = 25
+const n = 1354
 
-console.log(`El numero ${n} en romano es: ${convertToRoman(n)}`)
+console.log(`El numero ${n} en romano es: ${convertToRoman(n)}.`)

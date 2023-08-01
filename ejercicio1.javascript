@@ -6,4 +6,4 @@ function power(x, n){
     }
     return result;
 }
-console.log(power(2, 3)) // Imprimiría 8
+console.log(power(2, 3)) // Imprimiría 8 = 2*2*2

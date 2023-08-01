@@ -14,5 +14,5 @@ function fibonacci(n) {
 }
 
 const n = 10;
-const resultado = fibonacci(n)
-console.log("Los primeros " + n + " numeros de fibonacci son: " + resultado);
+const resultado = fibonacci(n);
+console.log("Los primeros " + n + " numeros de fibonacci son: " + resultado + ".");
