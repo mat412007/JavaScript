@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="ejercicio32.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
     <body>
-        <h1>Generador de numeros aletorios</h1>
+        <h1><u>Generador de numeros aletorios</u></h1>
         <!--n, a, b-->
         <label for="n">Cantidad de numeros aletorios</label>
         <input type="number" id="n">
-        <label for="a">Intervalo</label>
+        <br>
+        <br>
+        <label for="a">Desde </label>
         <input type="number" id="a">
+        <label for="b"> hasta </label>
         <input type="number" id="b">
+        <br>
+        <br>
         <button onclick="generarNumeros()">Generar aleatorios</button>
 
         <div id="resultado"></div>

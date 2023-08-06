@@ -4,6 +4,6 @@ function power(x, n){
         result *= x;
         n--;
     }
-    return result;
+    return result; //Otra forma más simple de hacerlo es con x**n
 }
-console.log(power(2, 3)) // Imprimiría 8 = 2*2*2
+console.log(power(2, 5)) // Imprimiría 32 = 2*2*2*2*2

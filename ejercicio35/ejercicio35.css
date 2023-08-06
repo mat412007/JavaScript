@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    margin-top: 20vh;
+}
+
+#resultado{
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+}

@@ -16,7 +16,7 @@ function generarNumeros() {
     for(let i = 0; i < n; i++){         //      5 + 5 = 10 (maximo)
                                         //      0 + 5 = 5 (minimo)
                                         //    (10 - 5 + 1) + 5
-        let numeroAleatorio = Math.floor(Math.random() * (b - a + 1) + a)
+        let numeroAleatorio = Math.floor(Math.random() * (b - a + 1) + a) + " ";
         numerosGenerados.push(numeroAleatorio)
     }
 

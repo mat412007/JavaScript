@@ -24,9 +24,9 @@ function verificarPalindromo() {
     let resultado = document.getElementById('resultado')
 
     if(esPalindromo){
-        resultado.innerText = "La palabra ingresada es un palindromo"
+        resultado.innerText = "La palabra ingresada es un palindromo."
     }
     else {
-        resultado.innerHTML = "La palabra ingresada no es un palindromo"
+        resultado.innerHTML = "La palabra ingresada no es un palindromo."
     }
 }
